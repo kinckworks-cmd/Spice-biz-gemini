@@ -1,0 +1,20 @@
+/* Custom Font Assignments */
+.font-serif { 
+    font-family: 'Playfair Display', serif; 
+}
+
+.font-sans { 
+    font-family: 'Lato', sans-serif; 
+}
+
+/* Custom Interactivity: Hover Glow Effect */
+.spice-item {
+    transition: all 0.3s ease-in-out;
+}
+
+.spice-item:hover {
+    /* Paprika Red / Cinnamon Brown blended glow */
+    box-shadow: 0 4px 20px rgba(192, 57, 43, 0.15); 
+    background-color: white;
+    border-color: #d1bfae;
+}
